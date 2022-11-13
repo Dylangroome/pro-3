@@ -7,3 +7,13 @@ class Player:
     
     def egt_move(self, game):
         pass
+
+
+
+class RandomComputerPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+    
+    def get_move(self, game):
+        pass
+
