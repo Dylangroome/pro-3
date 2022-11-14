@@ -7,7 +7,7 @@ class tictactoe:
 
 
     def print_board(self):
-        for row in [self.board[i*3:(1+1)*3] for i in range(3)]:
+        for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
             print('| ' + ' |'.join(row) + ' |')
 
 
@@ -85,8 +85,8 @@ def play(game, x_player, o_player, print_game=True):
 
             letter = 'o' if letter == 'X' else 'X'
     
-        if print_game:
-            print('It\'s a tie!')
+    if print_game:
+        print('It\'s a tie!')
 
 if __name__ == '__main__':
     x_player = HumanPlayer('X')
