@@ -1,3 +1,5 @@
+from user import HumanPlayer, RandomComputerPlayer
+
 class tictactoe:
     def __init__(self):
         self.board = [' ' for _ in range(9)]
@@ -80,7 +82,13 @@ def play(game, x_player, o_player, print_game=True):
                     print(letter + ' wins!')
                 return letter
 
-        letter = 'o' if letter == 'X' else 'X'
+            letter = 'o' if letter == 'X' else 'X'
     
-    if print_game:
-        print('It\'s a tie!')
+        if print_game:
+            print('It\'s a tie!')
+
+if __name__ == '__main__':
+    x_player = HumanPlayer('X')
+    o_player = RandomComputerPlayer('o')
+    t = tictactoe()
+    play(t, x_player, o_player, print_game=True)
