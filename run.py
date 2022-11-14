@@ -13,7 +13,7 @@ class tictactoe:
 
     @staticmethod
     def print_board_nums():
-        number_board = [[strg(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
+        number_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
         for row in number_board:
             print(('| ' + ' | '.join(row) + ' |'))
 
@@ -35,26 +35,27 @@ class tictactoe:
         return False
 
     
-    def winner(self, square, letter)
-    row_ind = square // 3
-    row = self.board[row_ind*3 : (row_ind + 1) * 3]
-    if all([spot == letter for spot in row]):
-        return True
-    
-    col_ind = square % 3
-    column = [self.board[col_ind+i*3] for i in range(3)]
-    if all([spot == letter for spot in column]):
-        return True
-    
-    if square % 2 == 0:
-        diagonal1 = [self.board[i] for i in [0, 4, 8]]
-        if all([spot == letter for spot in diagonal1]):
-        return True
-        diagonal2 = [self.board[i] for i in [2, 4, 6]]
-        if all([spot == letter for spot in diagonal2]):
-        return True
-    
-    return False
+    def winner(self, square, letter):
+
+        row_ind = square // 3
+        row = self.board[row_ind*3 : (row_ind + 1) * 3]
+        if all([spot == letter for spot in row]):
+            return True
+        
+        col_ind = square % 3
+        column = [self.board[col_ind+i*3] for i in range(3)]
+        if all([spot == letter for spot in column]):
+            return True
+        
+        if square % 2 == 0:
+            diagonal1 = [self.board[i] for i in [0, 4, 8]]
+            if all([spot == letter for spot in diagonal1]):
+                return True
+            diagonal2 = [self.board[i] for i in [2, 4, 6]]
+            if all([spot == letter for spot in diagonal2]):
+                return True
+        
+        return False
 
 
 
