@@ -6,7 +6,7 @@ class Game:
     def __init__(self):
 
         self.user_input = None
-        self.commuter_choose = None
+        self.computer_choose = None
 
     def get_user_input(self): # user input 
 
@@ -23,7 +23,13 @@ class Game:
 
 
 
-    def get_commuter_input(self):
+    def get_computer_input(self):
+        computer_choose == random.randint(1, 3)
+        if computer_choose == 1:
+            self.computer_choose = 'rock'
+        elif computer_choose == 2:
+            self.computer_choose = 'paper'
+        else computer_choose = 'scissors'
         
 
 
