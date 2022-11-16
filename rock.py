@@ -9,7 +9,7 @@ class Game:
 
     def get_user_input(self):
 
-        user_input = input('please choose\n \t rock\n \t paper\n \t scissors').strip()
+        user_input = input('please choose\n  rock\n  paper\n  scissors\n').strip()
         if user_input in ['rock']:
             self.user_input = 'rock'
         elif user_input in ['paper']:
@@ -22,5 +22,23 @@ class Game:
     def play(self):
        
         self.get_user_input()
+
+        
+
+
+def main():
     
-   
+    
+
+    game = Game()
+    
+    
+    while True:
+
+        
+        
+        return game.play()
+        
+
+
+main()
