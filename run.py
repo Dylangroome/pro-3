@@ -1,4 +1,7 @@
 import time
+from rock import main
+
+
 
 
 
@@ -28,8 +31,7 @@ def intro():
             print(f"Thanks for playing {user}, goodbye!")
             break
         elif select == 'rock':
-            print(f"Thanks for playing {user}, goodbye!")
-            break
+            main()
         else:
             print("You need to enter a valid difficulty to continue...\n")
             continue
