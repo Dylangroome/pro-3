@@ -1,4 +1,5 @@
 import time
+from tictac import main_tic
 from rock import main
 
 
@@ -28,10 +29,11 @@ def intro():
         select = input("Please select a game to continue. Type in 'rock', or 'tic' to play: \n").strip().lower()  # noqa
         time.sleep(2)
         if select == 'tic':
-            print(f"Thanks for playing {user}, goodbye!")
+            main_tic()
             break
         elif select == 'rock':
             main()
+            break
         else:
             print("You need to enter a valid difficulty to continue...\n")
             continue

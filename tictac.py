@@ -88,8 +88,14 @@ def play(game, x_player, o_player, print_game=True):
     if print_game:
         print('It\'s a tie!')
 
-if __name__ == '__main__':
-    x_player = HumanPlayer('X')
-    o_player = RandomComputerPlayer('o')
-    t = tictactoe()
-    play(t, x_player, o_player, print_game=True)
+def main_tic():
+
+    while True:
+        x_player = HumanPlayer('X')
+        o_player = RandomComputerPlayer('o')
+        t = tictactoe()
+        play(t, x_player, o_player, print_game=True)
+        break
+    
+
+main_tic()
