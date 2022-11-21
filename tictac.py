@@ -87,6 +87,7 @@ def play(game, x_player, o_player, print_game=True):
     
     if print_game:
         print('It\'s a tie!')
+    
 
 def main_tic():
 
@@ -96,7 +97,16 @@ def main_tic():
         t = tictactoe()
         play(t, x_player, o_player, print_game=True)
         break
-        
+
+    play_again_option = input(f'Would you like to play again? (Y/N)').strip().upper() 
+    if play_again_option == 'Y':
+            main_tic()
+    elif play_again_option == 'N':
+
+        print('Thanks for playing! \n')
+    else:
+        print('Invalid choice \n')
+            
     
 
 main_tic()
