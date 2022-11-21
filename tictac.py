@@ -96,6 +96,7 @@ def main_tic():
         t = tictactoe()
         play(t, x_player, o_player, print_game=True)
         break
+        
     
 
 main_tic()

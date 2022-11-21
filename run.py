@@ -4,9 +4,6 @@ from rock import main
 
 
 
-
-
-
 def intro():
     
     print("Welcome to "  + "!") 

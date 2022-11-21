@@ -94,7 +94,20 @@ class Game:
                 print(
                    "You chose scissors. The computer chose scissors too. Congrats, you tied.")  
     
-
+    def play_again(self):
+        """
+        Asks user if they want to play again by entering Y or N
+        """
+        play_again_option = input(f'Would you like to play again? (Y/N)').strip().upper() 
+        print('\n')
+        if play_again_option == 'Y':
+            main()
+        elif play_again_option == 'N':
+            self.games_played += 1
+            print('Thanks for playing! \n')
+        else:
+            print('Invalid choice \n')
+            self.play_again()
 
 
     def play(self):
@@ -103,6 +116,7 @@ class Game:
         self.get_computer_input()
         self.winner()
         self.display_match_results()
+        self.play_again()
         
 
 
@@ -119,6 +133,7 @@ def main():
         
         
         return game.play()
+    
     
 
     
