@@ -7,14 +7,14 @@ from rock import main
 
 def intro():
     
-    print("Welcome to "  + "!") 
+    print(Fore.BLUE + "Welcome to The Carnival "  + "!") 
 
     time.sleep(2)
 
     while True:
-        user = input("Please enter a username: \n")
+        user = input(Fore.GREEN + "Please enter a username: \n")
         if len(user.strip()) == 0:
-            print("Invalid username")
+            print(Fore.RED + "Invalid username")
             continue
         else:
             break
@@ -24,7 +24,7 @@ def intro():
     print(f"Hello {user}!")
 
     while True:
-        select = input("Please select a game to continue. Type in 'rock', or 'tic' to play: \n").strip().lower()  # noqa
+        select = input(Fore.GREEN + "Please select a game to continue. Type in 'rock', or 'tic' to play: \n").strip().lower()  # noqa
         time.sleep(2)
         if select == 'tic':
             main_tic()
@@ -33,7 +33,7 @@ def intro():
             main()
             break
         else:
-            print("You need to enter a valid difficulty to continue...\n")
+            print(Fore.RED + "You need to enter a valid option to continue...\n")
             continue
         
 

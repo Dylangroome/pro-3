@@ -104,7 +104,7 @@ def main_tic():
             main_tic()
     elif play_again_option == 'N':
 
-        print('Thanks for playing! \n')
+        print(Fore.GREEN + 'Thanks for playing! \n')
     else:
         print('Invalid choice \n')
             
