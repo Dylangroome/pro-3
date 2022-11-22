@@ -1,4 +1,5 @@
 import random
+from colorama import Fore, Back, Style
 
 
 class Game:
@@ -42,8 +43,8 @@ class Game:
         Adds match results.
         """
         print("")
-        print("Player wins: " + str(self.player_wins))
-        print("Computer wins: " + str(self.comp_wins))
+        print(Fore.GREEN + "Player wins: " + str(self.player_wins))
+        print(Fore.RED + "Computer wins: " + str(self.comp_wins))
         print("")
     
 

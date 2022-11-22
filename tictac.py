@@ -1,4 +1,5 @@
 from user import HumanPlayer, RandomComputerPlayer
+from colorama import Fore, Back, Style
 
 class tictactoe:
     def __init__(self):

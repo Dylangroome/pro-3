@@ -1,5 +1,6 @@
 import random
 import math
+from colorama import Fore, Back, Style
 
 class Player:
     def __init__(self, letter):

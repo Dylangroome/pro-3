@@ -1,4 +1,5 @@
 import time
+from colorama import Fore, Back, Style
 from tictac import main_tic
 from rock import main
 
@@ -37,6 +38,7 @@ def intro():
         
 
     time.sleep(2)
+
 
 
 
