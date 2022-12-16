@@ -110,4 +110,3 @@ def main_tic():
             
     
 
-main_tic()
