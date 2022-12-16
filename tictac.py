@@ -2,7 +2,7 @@ from user import HumanPlayer, RandomComputerPlayer
 from colorama import Fore, Back, Style
 
 
-class tictactoe:
+class TicTacToe:
     def __init__(self):
         self.board = [' ' for _ in range(9)]  # list to rep board
         self.current_winner = None  # keep track of winner
@@ -92,7 +92,7 @@ def main_tic():
     while True:
         x_player = HumanPlayer('X')
         o_player = RandomComputerPlayer('o')
-        t = tictactoe()
+        t = TicTacToe()
         play(t, x_player, o_player, print_game=True)
         break
 

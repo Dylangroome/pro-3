@@ -16,11 +16,11 @@ class Game:
 
         user_input = input(
             'please choose\n  rock\n  paper\n  scissors\n').lower().strip()
-        if user_input in ['rock','r']:
+        if user_input in ['rock', 'r']:
             self.user_input = 'rock'
-        elif user_input in ['paper','p']:
+        elif user_input in ['paper', 'p']:
             self.user_input = 'paper'
-        elif user_input in ['scissors','s']:
+        elif user_input in ['scissors', 's']:
             self.user_input = 'scissors'
         else:
             print('You didn’t choose a option, please try again.')
@@ -49,7 +49,7 @@ class Game:
         if self.user_input == "rock":
             if self.computer_choose == "rock":
                 print(
-                    "You chose rock. The computer chose rock too. Congrats, you tied.")
+                    "You chose rock. The computer chose rock too. Congrats, you tied.")# noqa
 
             elif self.computer_choose == "paper":
                 print("You chose rock. The computer chose paper. you lose.")
@@ -68,7 +68,7 @@ class Game:
 
             elif self.computer_choose == "paper":
                 print(
-                    "You chose paper. The computer chose paper too. Congrats, you tied.")
+                    "You chose paper. The computer chose paper too. Congrats, you tied.")# noqa
 
             elif self.computer_choose == "scissors":
                 print(
@@ -89,7 +89,7 @@ class Game:
 
             elif self.computer_choose == "scissors":
                 print(
-                    "You chose scissors. The computer chose scissors too. Congrats, you tied.")
+                    "You chose scissors. The computer chose scissors too. Congrats, you tied.")# noqa
 
     def play_again(self):
         """

@@ -32,7 +32,7 @@ def intro():
             main()
             break
         else:
-            print(Fore.RED + "You need to enter a valid option to continue...\n")
+            print(Fore.RED + "You need to enter a valid option to continue...\n")# noqa
             continue
 
     time.sleep(2)
