@@ -22,8 +22,14 @@ def intro():
 
     print(f"Hello {user}!")
 
+    time.sleep(2)
+
+    print(Fore.RED + 'You will have a choice to play \n Rock Paper Scissors \n or \n TicTacToe')
+
+    time.sleep(2)
+
     while True:
-        select = input(Fore.GREEN + "Please select a game to continue. Type in 'rock', or 'tic' to play: \n").strip().lower()  # noqa
+        select = input(Fore.GREEN + "Please select a game to continue. Type in 'rock' for Rock Paper Scissors, or 'tic' to play TicTacToe: \n").strip().lower()  # noqa
         time.sleep(2)
         if select == 'tic':
             main_tic()
