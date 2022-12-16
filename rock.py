@@ -15,12 +15,12 @@ class Game:
     def get_user_input(self):  # user input
 
         user_input = input(
-            'please choose\n  rock\n  paper\n  scissors\n').strip()
-        if user_input in ['rock']:
+            'please choose\n  rock\n  paper\n  scissors\n').lower().strip()
+        if user_input in ['rock','r']:
             self.user_input = 'rock'
-        elif user_input in ['paper']:
+        elif user_input in ['paper','p']:
             self.user_input = 'paper'
-        elif user_input in ['scissors']:
+        elif user_input in ['scissors','s']:
             self.user_input = 'scissors'
         else:
             print('You didn’t choose a option, please try again.')
