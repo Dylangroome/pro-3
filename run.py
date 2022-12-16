@@ -4,10 +4,9 @@ from tictac import main_tic
 from rock import main
 
 
-
 def intro():
-    
-    print(Fore.BLUE + "Welcome to The Carnival "  + "!") 
+
+    print(Fore.BLUE + "Welcome to The Carnival " + "!")
 
     time.sleep(2)
 
@@ -35,11 +34,8 @@ def intro():
         else:
             print(Fore.RED + "You need to enter a valid option to continue...\n")
             continue
-        
 
     time.sleep(2)
-
-
 
 
 intro()
