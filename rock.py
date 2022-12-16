@@ -14,7 +14,7 @@ class Game:
 
     def get_user_input(self):  # user input
 
-        user_input = input(
+        user_input = input(Fore.BLUE +
             'please choose\n  rock\n  paper\n  scissors\n').lower().strip()
         if user_input in ['rock', 'r']:
             self.user_input = 'rock'

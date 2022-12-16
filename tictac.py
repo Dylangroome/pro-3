@@ -72,7 +72,7 @@ def play(game, x_player, o_player, print_game=True):
 
         if game.make_move(square, letter):
             if print_game:
-                print(letter + f' make a move to square {square}')
+                print(letter + Fore.GREEN + f' make a move to square {square}')
                 game.print_board()
                 print('')
 
