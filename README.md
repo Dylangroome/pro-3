@@ -90,51 +90,46 @@ A bulleted list is a good presentation for this information.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your features and ensure that they all work as intended in an easy and straightforward way for the users to achieve their goals.
-
+In this section i conducted enough testing to legitimately believe that the site works well.
 
 ### Validation Testing
-You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
-run.py
+I used pep8 (https://pep8ci.herokuapp.com/#) to validate my python code.
 
-github
+run.py file
+
+github validation.
 
 <img width="1398" alt="Screenshot 2022-12-17 at 04 28 22" src="https://user-images.githubusercontent.com/108524172/208224866-bfede2d0-0e7a-4bae-983e-06ca77f781b8.png">
 
-val code institute
+pep8 validation.
 
 <img width="1440" alt="Screenshot 2022-12-17 at 04 34 52" src="https://user-images.githubusercontent.com/108524172/208225328-e936a8f4-0704-43f4-8a17-9cd97dc6ad4f.png">
 
-tictac.py
+tictac.py file
 
-github
+github validation.
 
 <img width="1404" alt="Screenshot 2022-12-17 at 04 40 17" src="https://user-images.githubusercontent.com/108524172/208225462-bead63db-9bab-480f-a5b9-f999a81553f6.png">
 
-code institute
+pep8 validation.
 
 <img width="1421" alt="Screenshot 2022-12-17 at 04 41 07" src="https://user-images.githubusercontent.com/108524172/208225476-e6731340-bcca-43d5-985c-aa2db562e5e5.png">
 
 
-rock.py
+rock.py file
 
-github
+github validation.
 
 
 <img width="1431" alt="Screenshot 2022-12-17 at 04 45 51" src="https://user-images.githubusercontent.com/108524172/208225595-aeb705f4-3b64-4404-9ee4-f6c666783069.png">
 
-code institute
+pep8 validation.
 
 
 <img width="1422" alt="Screenshot 2022-12-17 at 04 44 02" src="https://user-images.githubusercontent.com/108524172/208225608-0e14f2d7-2b6a-445e-88a6-83f21cec0694.png">
 
 
-For each python file in your project, run it through the pep8online validator
-
-- [PEP8 Validator](http://pep8online.com/) include a screenshot of results
-
-Note any errors or warnings you are ignoring and why. 
 
 If the line is too long just add 
 ```$python 
