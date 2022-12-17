@@ -68,9 +68,8 @@ you can choose to play again or end.
 
 ## Design Documents
 
-This section is where you would share logic diagrams and spreadsheets that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
+<img width="814" alt="Screenshot 2022-12-17 at 07 04 49" src="https://user-images.githubusercontent.com/108524172/208231802-8d18620c-ece7-49c1-90a1-ba844d2aeaf0.png">
 
-The flowchart can be as simple as a picture of a drawing of how you envisioned laying out the logic for you project, or done with a professional tool such as powerpoint, googlesheets, or [https://app.diagrams.net/](https://app.diagrams.net/) They are a roadmap and do not have to be 100% accurate of the final product.
 
 ## Data Model/ Classes
 In this section write our your data model(s) or classes. 
