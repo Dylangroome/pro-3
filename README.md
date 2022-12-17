@@ -148,7 +148,6 @@ Method
 
 ## Testing
 
-In this section i conducted enough testing to legitimately believe that the site works well.
 
 ### Validation Testing
 
