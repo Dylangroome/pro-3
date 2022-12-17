@@ -16,10 +16,19 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 ====================================== The Sections you Fill in are below ==============================
 
-# PROJECT NAME
-*replace the **PROJECT NAME** header with your project's name*
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
+# The Carnival
+
+<img width="755" alt="Screenshot 2022-12-17 at 07 08 22" src="https://user-images.githubusercontent.com/108524172/208230376-1dbabcdc-fc20-44a3-be45-fd1785359230.png">
+
+- 🪨 📄  ✂️ 
+
+<img width="790" alt="Screenshot 2022-12-17 at 07 10 08" src="https://user-images.githubusercontent.com/108524172/208230406-f111d9c9-5076-41c7-af34-f799cf64b577.png">
+
+- TicTacToe
+- 
+<img width="778" alt="Screenshot 2022-12-17 at 07 08 50" src="https://user-images.githubusercontent.com/108524172/208230418-0a8075c9-6383-444f-afd9-ffdc51f2a23f.png">
+
+- Deployed link https://carnival.herokuapp.com/
 
 ## Author
 DEVELOPER_NAME
