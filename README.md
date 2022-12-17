@@ -116,8 +116,22 @@ self.user_input = None = set user choice to none
 self.computer_choose = None = set computer choice to no
 
 **Methods**
-- **\_\_init\_\_**: Initialize method, it starts the class off with default parameters as if a user just started to play a game.
-- **\_\_str\_\_**: Returns a string representation of the class/object
+
+A representation of the game of TicTacToe.
+
+Method
+def print_board = tictactoe grid in terminal
+def print_board_nums = which number corresponds with each box
+def available_moves = checks available moves
+def make_move = if valid move make move
+def winner = checks winner
+def play = Calls functions to get user and computer choice and return winner.
+def main = gives user option play the game.
+
+A representation of the game 🪨 📄 ✂️ 
+
+Method
+
 
 ## Libraries used
 List out the python libraries you purposefully used in your project and why. You can look at your requirements.txt file and go back to https://pypi.org/ to rediscover the purpose of a library if needed.
