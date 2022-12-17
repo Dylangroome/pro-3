@@ -1,5 +1,5 @@
 import time
-from colorama import Fore, Back, Style
+from colorama import Fore
 from tictac import main_tic
 from rock import main
 
@@ -24,7 +24,7 @@ def intro():
 
     time.sleep(2)
 
-    print(Fore.RED + 'You will have a choice to play \n Rock Paper Scissors \n or \n TicTacToe')
+    print(Fore.RED + 'You will have a choice to play \n Rock Paper Scissors \n or \n TicTacToe') # noqa
 
     time.sleep(2)
 
@@ -38,7 +38,7 @@ def intro():
             main()
             break
         else:
-            print(Fore.RED + "You need to enter a valid option to continue...\n")# noqa
+            print(Fore.RED + "You need to enter a valid option to continue...\n")  # noqa
             continue
 
     time.sleep(2)

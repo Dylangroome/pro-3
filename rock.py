@@ -1,5 +1,5 @@
 import random
-from colorama import Fore, Back, Style
+from colorama import Fore
 
 
 class Game:
@@ -15,7 +15,7 @@ class Game:
     def get_user_input(self):  # user input
 
         user_input = input(Fore.BLUE +
-            'please choose\n  rock\n  paper\n  scissors\n').lower().strip()
+                           'please choose\n  rock\n  paper\n  scissors\n').lower().strip() # noqa
         if user_input in ['rock', 'r']:
             self.user_input = 'rock'
         elif user_input in ['paper', 'p']:
@@ -49,7 +49,7 @@ class Game:
         if self.user_input == "rock":
             if self.computer_choose == "rock":
                 print(
-                    "You chose rock. The computer chose rock too. Congrats, you tied.")# noqa
+                    "You chose rock. The computer chose rock too. Congrats, you tied.")  # noqa
 
             elif self.computer_choose == "paper":
                 print("You chose rock. The computer chose paper. you lose.")
@@ -68,7 +68,7 @@ class Game:
 
             elif self.computer_choose == "paper":
                 print(
-                    "You chose paper. The computer chose paper too. Congrats, you tied.")# noqa
+                    "You chose paper. The computer chose paper too. Congrats, you tied.")  # noqa
 
             elif self.computer_choose == "scissors":
                 print(
@@ -89,14 +89,14 @@ class Game:
 
             elif self.computer_choose == "scissors":
                 print(
-                    "You chose scissors. The computer chose scissors too. Congrats, you tied.")# noqa
+                    "You chose scissors. The computer chose scissors too. Congrats, you tied.")  # noqa
 
     def play_again(self):
         """
         Asks user if they want to play again by entering Y or N
         """
         play_again_option = input(
-            f'Would you like to play again? (Y/N)').strip().upper()
+            'Would you like to play again? (Y/N)\n').strip().upper()
         print('\n')
         if play_again_option == 'Y':
             main()

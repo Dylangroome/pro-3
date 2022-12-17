@@ -1,6 +1,6 @@
 import random
 import math
-from colorama import Fore, Back, Style
+from colorama import Fore
 
 
 class Player:
@@ -28,7 +28,8 @@ class HumanPlayer(Player):
         valid_square = False
         val = None
         while not valid_square:
-            square = input(self.letter + Fore.RED + '\'s turn. Input move (0-8):')
+            square = input(self.letter + Fore.RED +
+                           '\'s turn. Input move (0-8):\n')
 
             try:
                 val = int(square)

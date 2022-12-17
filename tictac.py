@@ -1,5 +1,5 @@
 from user import HumanPlayer, RandomComputerPlayer
-from colorama import Fore, Back, Style
+from colorama import Fore
 
 
 class TicTacToe:
@@ -97,7 +97,7 @@ def main_tic():
         break
 
     play_again_option = input(
-        f'Would you like to play again? (Y/N)').strip().upper()
+        'Would you like to play again? (Y/N)\n').strip().upper()
     if play_again_option == 'Y':
         main_tic()
     elif play_again_option == 'N':
