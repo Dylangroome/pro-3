@@ -72,17 +72,29 @@ you can choose to play again or end.
 
 
 ## Data Model/ Classes
-In this section write our your data model(s) or classes. 
 
-You might want to include subsections that include how the data in the model is initialized and then the methods that you created to update it through the program.
-
-
-You can create a table and take a screenshot, or you can write up subsections in markdown:
 
 ![image](https://user-images.githubusercontent.com/23039742/130148204-b56406bf-0fff-48f3-9dee-2f3cdbe67cc5.png)
 
-### Class X
-To better group the game as an object, I wrote a class representing its properties and had method functions to update those properties: 
+### Class 
+
+### Player
+A player is a generic representation of a player.
+
+
+### RandomComputerPlayer
+A RandomComputerPlayer is the computer, it is an extension of the BasePlayer class.
+ 
+
+### HumanPlayer
+A HumanPlayer represents the human player. It is an extension of the BasePlayer class.
+ 
+### TicTacToe
+Stores the board,inputs and outcomes for the game tictactoe
+
+### Game
+Stores the options,inputs and outcomes for the game 🪨 📄 ✂️ 
+
 
 **Properties**
 - property 1: is a {string} it represents {something} 
