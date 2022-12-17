@@ -140,9 +140,11 @@ Method
 -  def main = gives user option play the game.
 
 ## Libraries used
-List out the python libraries you purposefully used in your project and why. You can look at your requirements.txt file and go back to https://pypi.org/ to rediscover the purpose of a library if needed.
 
-A bulleted list is a good presentation for this information.
+- Time: used the sleep() function in between messages to the user to allow time for reading.
+- Random: used to randomize the computer's moves.
+- Colorama: used to color code the text.
+
 
 ## Testing
 
