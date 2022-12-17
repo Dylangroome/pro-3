@@ -101,15 +101,19 @@ Stores the options,inputs and outcomes for the game 🪨 📄 ✂️
 A representation of the game of TicTacToe.
 
 Properties
-print_board an array of 9 entries representing positions.
-winner tracks if a player has won the game or not.
+self.board an array of 9 entries representing positions.
+self.current_winner keep track of winner
 o_player representing the computer.
 x_player representing the human user.
 
 A representation of the game 🪨 📄 ✂️ 
 
 Properties
-
+self.comp_wins = comp_wins = set computer wins
+self.player_wins = player_wins = set player wins
+self.games_played = games_played = set games played
+self.user_input = None = set user choice to none
+self.computer_choose = None = set computer choice to no
 
 **Methods**
 - **\_\_init\_\_**: Initialize method, it starts the class off with default parameters as if a user just started to play a game.
