@@ -106,6 +106,15 @@ val code institute
 
 <img width="1440" alt="Screenshot 2022-12-17 at 04 34 52" src="https://user-images.githubusercontent.com/108524172/208225328-e936a8f4-0704-43f4-8a17-9cd97dc6ad4f.png">
 
+tictac.py
+
+github
+
+<img width="1404" alt="Screenshot 2022-12-17 at 04 40 17" src="https://user-images.githubusercontent.com/108524172/208225462-bead63db-9bab-480f-a5b9-f999a81553f6.png">
+
+code institute
+
+<img width="1421" alt="Screenshot 2022-12-17 at 04 41 07" src="https://user-images.githubusercontent.com/108524172/208225476-e6731340-bcca-43d5-985c-aa2db562e5e5.png">
 
 
 
