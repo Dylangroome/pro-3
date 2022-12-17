@@ -1,21 +1,3 @@
-# OVERVIEW
-
-This template was made as a guide to ensure you cover assessment criteria in your third milestone write up. It is specific to the **PORTFOLIO 3: Python Essentials** project. It was based off the [battleship readme](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p3-readme.png) with a few additions to help elevate you to possible distinction status.
-
-## Helpful tools
-
-Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
-
-- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
-- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
-- [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
-
-# Table of Contents
-Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
-
-====================================== The Sections you Fill in are below ==============================
-
 # The Carnival
 
 <img width="755" alt="Screenshot 2022-12-17 at 07 08 22" src="https://user-images.githubusercontent.com/108524172/208230376-1dbabcdc-fc20-44a3-be45-fd1785359230.png">
@@ -31,12 +13,11 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 - Deployed link https://carnival.herokuapp.com/
 
 ## Author
-DEVELOPER_NAME
+Dylan Groome
 
 ## Project Overview
-- Include a recording of site that shows the terminal interaction.
-  https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb is a very intuitive and free tool to do a web recording.
-- Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GitHub, and it'll resolve itself.
+![Python Terminal by Code Institute - 17 December 2022](https://user-images.githubusercontent.com/108524172/208230978-3f3190e4-093a-477d-b89c-82330752afbb.gif)
+
 - One or two sentences providing an overview of your project.
 - Include a link to your deployed website
 
