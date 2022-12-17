@@ -101,32 +101,32 @@ Stores the options,inputs and outcomes for the game 🪨 📄 ✂️
 A representation of the game of TicTacToe.
 
 Properties
-. self.board an array of 9 entries representing positions.
-. self.current_winner keep track of winner
-. o_player representing the computer.
-. x_player representing the human user.
+- self.board an array of 9 entries representing positions.
+- self.current_winner keep track of winner
+- o_player representing the computer.
+- x_player representing the human user.
 
 A representation of the game 🪨 📄 ✂️ 
 
 Properties
-. self.comp_wins = comp_wins = set computer wins
-. self.player_wins = player_wins = set player wins
-. self.games_played = games_played = set games played
-. self.user_input = None = set user choice to none
-. self.computer_choose = None = set computer choice to no
+- self.comp_wins = comp_wins = set computer wins
+- self.player_wins = player_wins = set player wins
+- self.games_played = games_played = set games played
+- self.user_input = None = set user choice to none
+- self.computer_choose = None = set computer choice to no
 
 **Methods**
 
 A representation of the game of TicTacToe.
 
 Method
-.def print_board = tictactoe grid in terminal
-.def print_board_nums = which number corresponds with each box
-.def available_moves = checks available moves
-.def make_move = if valid move make move
-.def winner = checks winner
-.def play = Calls functions to get user and computer choice and return winner.
-.def main = gives user option play the game.
+- def print_board = tictactoe grid in terminal
+- def print_board_nums = which number corresponds with each box
+- def available_moves = checks available moves
+- def make_move = if valid move make move
+- def winner = checks winner
+- def play = Calls functions to get user and computer choice and return winner.
+- def main = gives user option play the game.
 
 A representation of the game 🪨 📄 ✂️ 
 
