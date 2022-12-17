@@ -125,13 +125,19 @@ Method
 - def available_moves = checks available moves
 - def make_move = if valid move make move
 - def winner = checks winner
-- def play = Calls functions to get user and computer choice and return winner.
-- def main = gives user option play the game.
+- def play = Calls functions, iterate while empty square and alter letter after move.
+- def main_tic = gives user option play the game.
 
 A representation of the game 🪨 📄 ✂️ 
 
 Method
-
+-  def get_user_input = user input
+-  def get_computer_input = Generates the computer's choice.
+-  def display_match_results = Display's and adds player wins and computer wins.
+-  def winner = adds score and shows appropriate message for wins/ losses/ ties.
+-  def play_again = Gives user option to play another round.
+-  def play = Calls functions to get user and computer choice, get the match results and the play again function.
+-  def main = gives user option play the game.
 
 ## Libraries used
 List out the python libraries you purposefully used in your project and why. You can look at your requirements.txt file and go back to https://pypi.org/ to rediscover the purpose of a library if needed.
