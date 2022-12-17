@@ -97,8 +97,19 @@ Stores the options,inputs and outcomes for the game 🪨 📄 ✂️
 
 
 **Properties**
-- property 1: is a {string} it represents {something} 
-- property 2: is a {string} it represents {something} 
+
+A representation of the game of TicTacToe.
+
+Properties
+print_board an array of 9 entries representing positions.
+winner tracks if a player has won the game or not.
+o_player representing the computer.
+x_player representing the human user.
+
+A representation of the game 🪨 📄 ✂️ 
+
+Properties
+
 
 **Methods**
 - **\_\_init\_\_**: Initialize method, it starts the class off with default parameters as if a user just started to play a game.
