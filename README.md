@@ -36,19 +36,34 @@ Afterwards
 you can choose to play again or end.
 
 ## Features
-color code for ease of readability
+- color code for ease of readability
+- Ask for a username input which will be saved
+- capital and lower case dont cause a error on input
+- text with description about the terminal 
+- a choice of game will appear and ask for user input
+- wrong input asks to try again
+- rock will play 🪨 📄 ✂️ and determine win,loss or tie
+- options to play again
+- tic will play tic-tac-toe and determine a 3 row sequence win or tie.
+- options to play again
+- option to end game
 
 
 
 ### Implemented Features
-In each subsection, write out what the feature is for and what value it adds. If there is terminal interaction or output associated with the function, include a screenshot.
+- score tracker
+
+- tictactoe board
+
+<img width="778" alt="Screenshot 2022-12-17 at 07 08 50" src="https://user-images.githubusercontent.com/108524172/208231512-d614669e-51fe-4685-95ac-5afd67ee2dbb.png">
+
 
 
 ### Future Features
 
-Use this section to discuss plans for additional features to be implemented in the future:
-
-If you end up not developing some features you hoped to implement, you can include those in this section.
+- more game options
+- winning multiple games will achieve tokens to spin for a prize 
+- prizes saved to user as a collectible to try and get the all and have the user try different games
 
 
 ## Design Documents
