@@ -74,8 +74,6 @@ you can choose to play again or end.
 ## Data Model/ Classes
 
 
-![image](https://user-images.githubusercontent.com/23039742/130148204-b56406bf-0fff-48f3-9dee-2f3cdbe67cc5.png)
-
 ### Class 
 
 ### Player
