@@ -63,7 +63,7 @@ you can choose to play again or end.
 
 - more game options
 - winning multiple games will achieve tokens to spin for a prize 
-- prizes saved to user as a collectible to try and get the all and have the user try different games
+- prizes save to user as a collectible to try and get the user to try different games
 
 
 ## Design Documents
