@@ -289,23 +289,26 @@ fix was to add a break to while loop
 
 ## Credits
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+### Code Institute
 
--[Code Institute Template](https://github.com/Code-Institute-Org/python-essentials-template)
+- [Code Institute Template](https://github.com/Code-Institute-Org/python-essentials-template)
     - The Template for the GUI for this project was provided by Code Institute. This allows for the Command line to be shown and used within the browser.
 
-### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+### Tutorials
 
-### Media
+- https://www.youtube.com/watch?v=8ext9G7xspg&t=4342s
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+### GitHub
+https://github.com/KateEllen/Rock-Paper-Scissors/blob/main/README.md
+https://github.com/gabriel-alves-p/noughts-n-crosses/edit/main/README.md
+
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
+This project could only come to exist because of the help and support from:
 
-If you used a CodeInstitute Instructional project as a starting point. Make note of that here too.
+- My Code Institute mentor Malia Havlicek for being incredibly helpful and accessible.
+- Code Institute for providing the accessible content from which I learned these new skills from.
 
 
