@@ -18,21 +18,26 @@ Dylan Groome
 ## Project Overview
 ![Python Terminal by Code Institute - 17 December 2022](https://user-images.githubusercontent.com/108524172/208230978-3f3190e4-093a-477d-b89c-82330752afbb.gif)
 
-- One or two sentences providing an overview of your project.
-- Include a link to your deployed website
+- The carnival is a Terminal which will allow a choice of the games available to play.
+- Right now there are two games available 🪨 📄 ✂️ and tictactoe
+- I hope to add ore variety in mini game in the future.
 
 ## Table of Contents
 Generate after readme is complete for UX and below
 
 ## How To Play/Use
-Paragraph or bullet points of how the user initiates the program and interfaces with it. You could have videos of each bit if you want and ditact what the user should do.
+Greetings and user name input at first site
+
+a brief decrepit on the choices available. 
+
+Input the game you wish to play and you will be brought to a screen where you can start playing. 
+
+Afterwards 
+you can choose to play again or end.
 
 ## Features
-Use this section to itemize the features of your project. 
+color code for ease of readability
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-It's easiest to break this section down into piece parts or core functionality blocks such as data upload, user input, analysis and data output; focusing on the atomic functions and data model(s) or classes you created to make the program work. 
 
 
 ### Implemented Features
